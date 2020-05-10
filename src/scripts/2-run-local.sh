@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-export PROJECT_ID=featrs-uat
+export PROJECT_ID=featrz-uat
 export SERVICE=data-service
 export GOOGLE_APPLICATION_CREDENTIALS="/Users/arjan/Projects/Feature/datastore_firestore/data-user.json"
 

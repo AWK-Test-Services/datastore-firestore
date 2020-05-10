@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-export PROJECT_ID=featrs-uat
+export PROJECT_ID=featrz-uat
 export SERVICE=data-service
 export VERSION=`mvn -q  -Dexec.executable=echo -Dexec.args='${project.version}' --non-recursive exec:exec`
 export IMAGE=gcr.io/$PROJECT_ID/data-service
