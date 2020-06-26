@@ -2,8 +2,8 @@
 
 export PROJECT_ID=featrz-uat
 export SERVICE=data-service
-export VERSION=`mvn -q  -Dexec.executable=echo -Dexec.args='${project.version}' --non-recursive exec:exec`
 export IMAGE=gcr.io/$PROJECT_ID/data-service
+export VERSION=`mvn -q  -Dexec.executable=echo -Dexec.args='${project.version}' --non-recursive exec:exec`
 
 gcloud config set project --no-user-output-enabled "$PROJECT_ID"
 
